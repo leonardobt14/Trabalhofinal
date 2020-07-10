@@ -30,7 +30,7 @@ public class Projeto {
 			tipo[i] = sc.nextInt();
 			if (tipo[i] != 0 && tipo[i] != 1 && tipo[i] != 2) {
 				while (tipo[i] != 0 && tipo[i] != 1 && tipo[i] != 2) {
-					System.out.print("Tentativa Inv·lida, digite um tipo de assinatura v·lido 0, 1 ou 2: ");
+					System.out.print("Tentativa Inv√°lida, digite um tipo de assinatura v√°lido 0, 1 ou 2: ");
 					tipo[i] = sc.nextInt();
 				}
 			}
@@ -83,7 +83,7 @@ public class Projeto {
 			if (opcao != 1 && opcao != 2 && opcao != 3 && opcao != 4 && opcao != 5 && opcao != 6 && opcao != 7) {
 				System.out.println();
 				while (opcao != 1 && opcao != 2 && opcao != 3 && opcao != 4 && opcao != 5 && opcao != 6 && opcao != 7) {
-					System.out.print("OpÁ„o Inv·lida! Tente Novamente: ");
+					System.out.print("Op√ß√£o Inv√°lida! Tente Novamente: ");
 					opcao = sc.nextInt();
 				}
 			}
@@ -105,14 +105,14 @@ public class Projeto {
 				for (int i = 0; i < n; i++) {
 				 somatotal += valordaconta[i];
 				}
-				System.out.printf("A Receita total È de: R$ %.2f%n" , somatotal);
+				System.out.printf("A Receita total √© de: R$ %.2f%n" , somatotal);
 				System.out.println();
 
 			} else if (opcao == 3) {
 				System.out.println();
 				
 				double contamaisbarata = valordaconta[0];
-				String nomemaisbarata = nome[0], telefonemaisbarata = nome [0];
+				String nomemaisbarata = nome[0], telefonemaisbarata = telefone [0];
 				
 				for (int i = 0; i < n; i++) {
 					if (valordaconta[i] < contamaisbarata) {
